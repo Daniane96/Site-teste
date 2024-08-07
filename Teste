@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #444;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site Pessoal</h1>
+    </header>
+    <nav>
+        <a href="#sobre-mim">Sobre Mim</a>
+        <a href="#blog">Blog</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="content">
+        <div id="sobre-mim" class="section">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Eu sou [Seu Nome]. Bem-vindo ao meu site pessoal. Aqui você pode aprender mais sobre mim, ler meus artigos no blog e entrar em contato.</p>
+        </div>
+        <div id="blog" class="section">
+            <h2>Blog</h2>
+            <p>Confira meus últimos posts no blog:</p>
+            <ul>
+                <li><a href="link_do_artigo_1">Título do Artigo 1</a></li>
+                <li><a href="link_do_artigo_2">Título do Artigo 2</a></li>
+                <li><a href="link_do_artigo_3">Título do Artigo 3</a></li>
+            </ul>
+        </div>
+        <div id="contato" class="section">
+            <h2>Contato</h2>
+            <p>Entre em contato comigo através dos seguintes links:</p>
+            <ul>
+                <li><a href="mailto:seu_email@example.com">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/seu-perfil">LinkedIn</a></li>
+                <li><a href="https://github.com/seu-usuario">GitHub</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
